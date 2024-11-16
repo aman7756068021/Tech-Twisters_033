@@ -8,6 +8,8 @@ import os
 from geopy.geocoders import Nominatim
 
 # Import the load_data function from your data.py
+st.set_page_config(page_title="My Streamlit App", page_icon="🏠", layout="wide")
+st.title("My App")
 
 
 def load_data():
