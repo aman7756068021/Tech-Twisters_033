@@ -7,6 +7,8 @@ import os
 from geopy.geocoders import Nominatim
 
 # Import the load_data function from your data.py
+st.set_page_config(page_title="E Commerce", page_icon="💹", layout="wide")
+st.title("My App")
 
 
 def load_data():
@@ -39,7 +41,6 @@ def load_data():
 
 
 # Set page layout
-st.set_page_config(layout="wide")
 
 # CSS for styling the background and container
 background_image_url = "url(https://wallpapercave.com/wp/wp7566374.jpg)"
