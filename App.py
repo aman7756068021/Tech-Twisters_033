@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 import streamlit as st
 import pandas as pd
@@ -346,15 +345,7 @@ if 'latitude' in filtered_df.columns and 'longitude' in filtered_df.columns:
     st.map(filtered_df)
 else:
     st.write("Latitude and Longitude data not available for mapping.")
-=======
 
-import streamlit as st
-import pandas as pd
-import plotly.express as px
-import matplotlib.pyplot as plt
-import seaborn as sns
-import os
-from geopy.geocoders import Nominatim
 
 # Import the load_data function from your data.py
 
@@ -694,4 +685,3 @@ if 'latitude' in filtered_df.columns and 'longitude' in filtered_df.columns:
     st.map(filtered_df)
 else:
     st.write("Latitude and Longitude data not available for mapping.")
->>>>>>> ef3c346030ed9a1a44ecc3fa63075c788918fdf5
