@@ -102,22 +102,20 @@ with st.container():
 # Set the page configuration first
 st.set_page_config(layout="wide")
 
-# Local file path (for development on your machine)
+# Define your logo path
 local_logo_path = os.path.join(
     'C:/Users/a.n.shaikh0129/OneDrive/Desktop/Masai/Project+/StreamLit', 'tech-2.jpeg'
 )
 
-# URL for the image hosted on Google Drive (for deployment on Streamlit Cloud)
+# Google Drive URL (for deployment)
 google_drive_logo_url = "https://drive.google.com/uc?export=view&id=1v1hqE166NY9wKSsxRyW0qTI5T99iyG6j"
 
-# Check if the image exists locally, otherwise use the Google Drive URL
+# Check if the image exists locally and display it
 if os.path.exists(local_logo_path):
-    # If the image exists locally, display it
     st.image(local_logo_path, use_column_width=True)
 else:
-    # If the local image does not exist, use the Google Drive URL
+    # Fallback to Google Drive URL
     st.image(google_drive_logo_url, use_column_width=True)
-
 # Create sidebar filters
 with st.container():
     st.markdown("<div style='margin-top: 20px;'></div>",
