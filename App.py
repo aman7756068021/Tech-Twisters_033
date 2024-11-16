@@ -95,17 +95,11 @@ with st.container():
         </style>
         """, unsafe_allow_html=True
     )
-logo_path = os.path.join(
-    'C:/Users/a.n.shaikh0129/OneDrive/Desktop/Masai/Project+/StreamLit', 'tech-2.jpeg'
-)
+logo_url = "https://ideogram.ai/assets/image/lossless/response/dhOe2ReBQGmWhxc2V---0w"
 
-
+# Display the image from URL in the sidebar
 with st.sidebar:
-    if os.path.exists(logo_path):
-        # Use the updated parameter
-        st.image(logo_path, use_container_width=True)
-    else:
-        st.write("Logo file not found.")
+    st.image(logo_url, use_container_width=True)
 # Create sidebar filters
 with st.container():
     st.markdown("<div style='margin-top: 20px;'></div>",
