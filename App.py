@@ -98,6 +98,10 @@ with st.container():
         </style>
         """, unsafe_allow_html=True
     )
+
+# Set the page configuration first
+st.set_page_config(layout="wide")
+
 # Local file path (for development on your machine)
 local_logo_path = os.path.join(
     'C:/Users/a.n.shaikh0129/OneDrive/Desktop/Masai/Project+/StreamLit', 'tech-2.jpeg'
@@ -113,6 +117,7 @@ if os.path.exists(local_logo_path):
 else:
     # If the local image does not exist, use the Google Drive URL
     st.image(google_drive_logo_url, use_column_width=True)
+
 # Create sidebar filters
 with st.container():
     st.markdown("<div style='margin-top: 20px;'></div>",
