@@ -41,7 +41,7 @@ This project analyzes a comprehensive e-commerce dataset to provide actionable i
 - **Details**: [Code Documentation](https://drive.google.com/file/d/1nItiFQojs3Q-OTo6-Xe8IK1JLGPVjlhs/view)
 
 ## Dashboard Overview
-- **Visualization Overview**: [Dashboard Walkthrough](https://drive.google.com/file/d/10zxQ7MhaHrLU27d3Iq3K_28mz9AfV6ul/view?usp=sharing)
+- **Visualization Overview**: [Dashboard Walkthrough](https://drive.google.com/file/d/1DIHW7CqT4OjqT24RzC19WqTPErHHK0o6/view?usp=sharing)
 
 ---
 
